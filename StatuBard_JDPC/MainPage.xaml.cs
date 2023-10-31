@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using StatuBard_JDPC.VistaModelo;
 
 namespace StatuBard_JDPC
 {
@@ -13,6 +14,7 @@ namespace StatuBard_JDPC
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new VMmainpage();
         }
     }
 }
